@@ -13,7 +13,8 @@ def word_substituter(tweet)
   if  dictionary.keys.include?(x)
     x = dictionary.values_at(x)
     
-    elsif dic
+    elsif (dictionary.keys.map {|y| y.capitalize}).include?(z)
+    z = dictionary.values_at(z.downcase)
 end
 
 end
