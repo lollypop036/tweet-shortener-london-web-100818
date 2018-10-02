@@ -18,6 +18,6 @@ def word_substituter(tweet)
 end
 
 end
-
+tweet.join(" ")
 tweet
 end
