@@ -9,7 +9,7 @@ end
 def word_substituter(tweet)
   
   tweet = tweet.split(" ")
-  tweet.map do |x|
+  tweet.map! do |x|
   if  dictionary.keys.include?(x)
     x = dictionary.values_at(x)
     
